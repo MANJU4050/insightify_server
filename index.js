@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const insighter = require('./insighter')
 
 app.use(cors({
-    origin: 'https://insightify.netlify.app',
+    origin: 'https://insightify.netlify.app/',
     methods: ['GET', 'POST','PUT','PATCH','DELETE'],
     credentials: true
 }));
