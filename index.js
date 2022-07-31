@@ -58,6 +58,6 @@ app.post('/getinsight',(req,res)=>{
 
 
 
-app.listen(4000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server started running on port 4000");
 })
